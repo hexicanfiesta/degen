@@ -20,12 +20,6 @@ export default function ReferralGenerator() {
     setReferralLink(link);
   };
 
-  const copyToClipboard = async () => {
-    if (!referralLink) return;
-    await navigator.clipboard.writeText(referralLink);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
 
   return (
     <div className="bg-background flex min-h-screen flex-col items-center mt-20 p-4">

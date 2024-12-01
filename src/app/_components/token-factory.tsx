@@ -315,19 +315,6 @@ export default function TokenFactory() {
             />
           </div>
           <div>
-            <label htmlFor="supply" className="mb-2 block font-press-start-2p text-sm">
-              Tax
-            </label>
-            <Input
-              id="royalty"
-              type="number"
-              value={tokenRoyalty?.trim() ?? ""}
-              onChange={(e) => setTokenRoyalty(e.target.value)}
-              placeholder="0.1"
-              className="w-full text-sm"
-            />
-          </div>
-          <div>
             <label
               htmlFor="logo"
               className="mb-2 block font-press-start-2p text-sm"
